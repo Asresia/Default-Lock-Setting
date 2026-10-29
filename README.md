@@ -1,6 +1,6 @@
 # DLS — Default Lock Setting
 
-Bondage Club（R132）的用户脚本。给"上锁"预设默认值，省掉每次手动填。
+简单的Bondage Club（R132）的用户脚本，谢谢蓝色大肥鱼出力。给"上锁"预设默认值，省下每次手动填的力气。
 
 ## 功能
 
