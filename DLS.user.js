@@ -2,15 +2,17 @@
 // @name         DLS — 默认锁设置
 // @name:zh-CN   DLS — 默认锁设置
 // @namespace    dls
-// @version      0.1.0
+// @version      0.1.1
 // @description  Bondage Club (R132) default lock settings: timer-lock default duration (owner/lovers separately) / password-lock default password & hint / combination lock / precise hh:mm:ss box inside the original lock UI
 // @description:zh-CN  Bondage Club（R132）默认锁设置：计时锁默认时长（主人锁/恋人锁分开）、密码锁默认密码与提示语、组合锁、原版锁界面里的精确时长输入框
 // @author       Asresia(Dr)23575
 // @license      MIT
-// @match        *://*/BondageClub/*
-// @match        *://*/*/BondageClub/*
-// @match        *://*/*/*/BondageClub/*
-// @include      *BondageClub*
+// @match        https://bondageprojects.elementfx.com/*
+// @match        https://www.bondageprojects.elementfx.com/*
+// @match        https://bondage-europe.com/*
+// @match        https://www.bondage-europe.com/*
+// @match        https://bondage-asia.com/*
+// @match        https://www.bondage-asia.com/*
 // @run-at       document-start
 // @grant        none
 // @noframes
@@ -71,7 +73,7 @@
   /* ★ 每次改动都递增这个标记：用来确认你贴进游戏的到底是哪一版
      （日志第一行会带它，控制台也能 __DLS.build 查）。
      "改了但没生效"最常见的原因就是贴了旧版。 */
-  const BUILD = 'b51';
+  const BUILD = 'b53';
   const TAG = '[DLS]';
   const MOD_NAME = 'DLS';
   const MOD_FULLNAME = 'DLS — Default Lock Settings';
