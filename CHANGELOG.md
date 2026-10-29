@@ -1,6 +1,19 @@
 # 版本历史
 
-## 0.1.0（build b44）— 当前
+## 0.1.1（build b52 – b53）— 当前
+
+- **`@match` 换成 6 个官方镜像域名**（用户指定）：`bondageprojects.elementfx.com` / `bondage-europe.com` /
+  `bondage-asia.com`（各含 `www.` 变体）；去掉了原来的 `@include *BondageClub*` 兜底
+  ⇒ **本地/自建/非官方镜像**与 **http（非 TLS）** 部署不再匹配。代价：这些域名的任何页面都会注入脚本
+  （非游戏页会等 30 秒 SDK 后提示并退出）。
+- **版本号统一到 0.1.1**：`@version`、内部 `const VERSION`、包名（目录 / zip / zip 内顶层目录）全部对齐。
+  之前内部 `VERSION` 漏升，会导致 `__DLS.version` 与游戏内 mod 注册版本仍显示旧号。
+- **README 精简**：根目录 `README.md` 731 行 → 60 行（功能 / 安装 / 用法 / 命令 / 注意事项 / 许可）；
+  完整文档改名 `docs/DEVELOPMENT.md` 留作开发参考。
+- **发布准备**：`@updateURL` / `@downloadURL` 指向仓库 raw 地址；`about.repoUrl` 默认值设为仓库地址；
+  仓库根新增 `.gitignore`；署名定稿 `Asresia(Dr)23575`。
+
+## 0.1.0（build b44）
 
 - **logo 回退到 b41 那版**（描线 + 接断口 + 补一条完整圆框，**不擦除**）。
   b42/b43 试图"只留干净圆框"：既没擦净描出来的边框，又因为擦除改变了裁切框，

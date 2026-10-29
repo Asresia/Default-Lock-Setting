@@ -1,6 +1,6 @@
 # DLS — Default Lock Setting
 
-简单的Bondage Club（R132）的用户脚本，谢谢蓝色大肥鱼出力。给"上锁"预设默认值，省下每次手动填的力气。
+Bondage Club（R132）的用户脚本。给"上锁"预设默认值，省掉每次手动填。
 
 ## 功能
 
@@ -23,7 +23,7 @@
 
 **https://raw.githubusercontent.com/Asresia/Default-Lock-Setting/main/DLS.user.js**
 
-装好后刷新游戏，控制台应出现 `[DLS] 已注册 mod：DLS v0.1.0 build b51`。
+装好后刷新游戏，控制台应出现 `[DLS] 已注册 mod：DLS v0.1.1 build b53`。
 
 > 脚本必须保持 `@grant none` 和 `@run-at document-start` —— 改成 `GM_*` 会被沙箱隔离、看不到游戏全局。
 
